@@ -10,8 +10,12 @@ $(document).ready(function() {
            }
        });
 
+        var locale = $(location).attr('href').split('/').pop();
+        locale = 'ru';
+        console.log(locale);
+
         $.ajax({
-            url: 'https://alshuriga.pythonanywhere.com/req?id=ru',
+            url: 'https://alshuriga.pythonanywhere.com/req?id=' + locale,
             type: 'GET',
             dataType: 'json',
             success: function(data, status, xhr)
