@@ -177,8 +177,7 @@ function getGroup(data, id) {
 function setTitles(data) {
     $(".list-section").find("img").each(function() {
         console.log(getGroup(data, $(this).attr("id")));
-        //$(this).parent().attr("title", getGroup(data,$(this).attr("id")));
-      //  console.log(getGroup(data,$(this).attr("id")));
+        $(this).parent().attr("title", getGroup(data,$(this).attr("id")));
     });
 
 }
