@@ -1,0 +1,407 @@
+[
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/5610275f985583f2b2f83b770273865e.png",
+        "filename": "761_The_Lawless_Frontier.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "761",
+        "locale": "en",
+        "name": "The Lawless Frontier"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/c849d6876df617ba6450f619d8d3cd34.png",
+        "filename": "762_The_Man_They_Call_Cayde.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "762",
+        "locale": "en",
+        "name": "The Man They Call Cayde"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/3db3a6822b302abd69dbf27934ce7054.png",
+        "filename": "763_Ghost_Stories.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "763",
+        "locale": "en",
+        "name": "Ghost Stories"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/68b5edbce9b78f327526cf7b0f4b7ce4.png",
+        "filename": "764_Most_Loyal.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "764",
+        "locale": "en",
+        "name": "Most Loyal"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7c49071f5674d989e470c94efdc26f9c.png",
+        "filename": "765_Letters_from_a_Renegade.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "765",
+        "locale": "en",
+        "name": "Letters from a Renegade"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/9aa6fb5108c3abbc9c420da35c80f864.png",
+        "filename": "766_Evas_Journey.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "766",
+        "locale": "en",
+        "name": "Evas Journey"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/88db6317a6145687515c7b688486165d.png",
+        "filename": "767_Dawning_Delights.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "767",
+        "locale": "en",
+        "name": "Dawning Delights"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/3cea4b136d8c3ac8ff0f5079a34034dc.png",
+        "filename": "768_Dust.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "768",
+        "locale": "en",
+        "name": "Dust"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/dbfa4fc7cd467dc13146acbc6e04f949.png",
+        "filename": "769_Stolen_Intelligence.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "769",
+        "locale": "en",
+        "name": "Stolen Intelligence"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/8104e83916e405302fd8a7ba29662ac1.png",
+        "filename": "770_The_Warlock_Aunor.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "770",
+        "locale": "en",
+        "name": "The Warlock Aunor"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0453a847ada496e31476ca80454f90ff.png",
+        "filename": "771_Lunas_Lost.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "771",
+        "locale": "en",
+        "name": "Lunas Lost"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7999c3f27143fbf134bc6fff88a1f634.png",
+        "filename": "772_Letters_from_Eris.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "772",
+        "locale": "en",
+        "name": "Letters from Eris"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/c0d5d6d00de809a5ef10839ac5a7cf07.png",
+        "filename": "773_The_Pigeon_and_the_Phoenix.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "773",
+        "locale": "en",
+        "name": "The Pigeon and the Phoenix"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/72be81169e334daf138f63f743e5df68.png",
+        "filename": "774_Constellations.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "774",
+        "locale": "en",
+        "name": "Constellations"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/b5a3d0ec24326dbb86084e3f9c0bf94e.png",
+        "filename": "775_Duress_and_Egress.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "775",
+        "locale": "en",
+        "name": "Duress and Egress"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/ca5cec6509d1d01f2d1734c5f247063a.png",
+        "filename": "776_Regarding_Stasis.epub",
+        "group": 2261683515,
+        "groupname": "The Light",
+        "index": "776",
+        "locale": "en",
+        "name": "Regarding Stasis"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/8e6fd5d5d16f6722c2aa30042232ec12.png",
+        "filename": "779_The_Dreaming_City.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "779",
+        "locale": "en",
+        "name": "The Dreaming City"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/5348c0978e1e1b42f6ec47f7d379a181.png",
+        "filename": "780_Marasenna.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "780",
+        "locale": "en",
+        "name": "Marasenna"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/9c122565c6965d1c9369ef4c29458157.png",
+        "filename": "781_The_Awoken_of_the_Reef.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "781",
+        "locale": "en",
+        "name": "The Awoken of the Reef"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0d2bc0f54f4c81638d1baed1e56c386a.png",
+        "filename": "782_The_Black_Armory_Papers.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "782",
+        "locale": "en",
+        "name": "The Black Armory Papers"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/83a36da5831d255bafe974ceb6a0c132.png",
+        "filename": "783_Ecdysis.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "783",
+        "locale": "en",
+        "name": "Ecdysis"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/82514978c9151764ef246c84babd838f.png",
+        "filename": "784_A_Man_with_No_Name.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "784",
+        "locale": "en",
+        "name": "A Man with No Name"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/520c3f0abc0067e7431bc0e399d41ded.png",
+        "filename": "785_Nothing_Ends.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "785",
+        "locale": "en",
+        "name": "Nothing Ends"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/a3b75307eddc0921d43b2af225f7d68b.png",
+        "filename": "786_Aspect.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "786",
+        "locale": "en",
+        "name": "Aspect"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7c4bb9c933415a7edab185e4ece3d718.png",
+        "filename": "787_Revelation.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "787",
+        "locale": "en",
+        "name": "Revelation"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/e568304735bd5fe00b8c4a02ae181966.png",
+        "filename": "788_The_Liar.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "788",
+        "locale": "en",
+        "name": "The Liar"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/14b9ce15d8999d88828fdcbb3b2e50c7.png",
+        "filename": "789_Your_Friend,_Micah_Abram.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "789",
+        "locale": "en",
+        "name": "Your Friend, Micah Abram"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/05096887c1b7dc02e7691b28bd8aa3f1.png",
+        "filename": "790_Legacys_Lament.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "790",
+        "locale": "en",
+        "name": "Legacys Lament"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/48d2ac6de17a7d670463d71c4b4070a7.png",
+        "filename": "791_The_Dark_Future.epub",
+        "group": 2368205079,
+        "groupname": "Dusk and Dawn",
+        "index": "791",
+        "locale": "en",
+        "name": "The Dark Future"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/48b291462fade2c5847bd5a8b09a87a7.png",
+        "filename": "793_The_Forsaken_Prince.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "793",
+        "locale": "en",
+        "name": "The Forsaken Prince"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/642d1b67e90cc9c86242d88cef70b004.png",
+        "filename": "794_Truth_to_Power.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "794",
+        "locale": "en",
+        "name": "Truth to Power"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/1f9756e66410c0c16cc1520a9e84caf1.png",
+        "filename": "795_A_Drifters_Gambit.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "795",
+        "locale": "en",
+        "name": "A Drifters Gambit"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/914aa23c01fab6bd9dfbb5e4a63bfb29.png",
+        "filename": "796_Wall_of_Wishes.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "796",
+        "locale": "en",
+        "name": "Wall of Wishes"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/66f0ecb39a2352a18897baf1feb2b4ac.png",
+        "filename": "797_The_Book_of_Unmaking.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "797",
+        "locale": "en",
+        "name": "The Book of Unmaking"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/23e85c6064feba667f4bf436b6f80b1f.png",
+        "filename": "798_For_Every_Rose,_a_Thorn.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "798",
+        "locale": "en",
+        "name": "For Every Rose, a Thorn"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0b1abe2e81253169d02dc70c6803429b.png",
+        "filename": "799_The_Chronicon.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "799",
+        "locale": "en",
+        "name": "The Chronicon"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/59f891bb009dd5e12b92db95b23712ca.png",
+        "filename": "800_Confessions.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "800",
+        "locale": "en",
+        "name": "Confessions"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/00b0e67411474497e3f6c26dd4a23bd2.png",
+        "filename": "801_Unveiling.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "801",
+        "locale": "en",
+        "name": "Unveiling"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/949687d19cddc34d1d2364c145ebc345.png",
+        "filename": "802_Last_Days_on_Kraken_Mare.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "802",
+        "locale": "en",
+        "name": "Last Days on Kraken Mare"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/787e29e41f8f281369fe2c66ebfedcbe.png",
+        "filename": "803_Inquisition_of_the_Damned.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "803",
+        "locale": "en",
+        "name": "Inquisition of the Damned"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7f1eac0ba90f6b9c3fb9c73aa6742946.png",
+        "filename": "804_Trials_and_Tribulations.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "804",
+        "locale": "en",
+        "name": "Trials and Tribulations"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/379b122cfca47ae80172f3a89a1b59b7.png",
+        "filename": "805_The_Singular_Exegete.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "805",
+        "locale": "en",
+        "name": "The Singular Exegete"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0efdea73a5e099b5bca1aec038c1a4e1.png",
+        "filename": "806_The_Once-Shipstealer.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "806",
+        "locale": "en",
+        "name": "The Once-Shipstealer"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/190aa8ec8b474b529631c35a273a70a1.png",
+        "filename": "807_Call_of_the_Cryptolith.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "807",
+        "locale": "en",
+        "name": "Call of the Cryptolith"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/11bcf7e11d16f677b37a241c6552e822.png",
+        "filename": "808_Bray_Lab_Records_-_CONFIDENTIAL.epub",
+        "group": 3188244430,
+        "groupname": "The Darkness",
+        "index": "808",
+        "locale": "en",
+        "name": "Bray Lab Records - CONFIDENTIAL"
+    }
+]

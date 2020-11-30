@@ -26,6 +26,7 @@ $(document).ready(function() {
                 }
                 filter(data, pointer);
                 navCheck(pointer, data);
+                setTitles(data);
                 $('.bookname').first().addClass("active");
                 set_image(data[$('.active').first().attr('id')].cover);
                 $('#bookname').text(data[$('.active').first().attr('id')].name);
@@ -74,6 +75,8 @@ $(document).ready(function() {
                     filter(data, pointer);
                     navCheck(pointer, data);
                 });
+
+
 
 
             },
@@ -160,6 +163,25 @@ $.fn.preload = function() {
     });
 }
 
+function getGroup(data, id) {
+    for (i = 0; i < data.length; i++) {
+        if (data[i].group == id) {
+            return data[i].groupname;
+        }
+
+    }
+    return false;
+}
+
+
+function setTitles(data) {
+    $(".list-section").find("img").each(function() {
+        console.log(getGroup(data, $(this).attr("id")));
+        //$(this).parent().attr("title", getGroup(data,$(this).attr("id")));
+      //  console.log(getGroup(data,$(this).attr("id")));
+    });
+
+}
 // Usage:
 
 

@@ -1,0 +1,407 @@
+[
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/5610275f985583f2b2f83b770273865e.png",
+        "filename": "761_Край_бандитов.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "761",
+        "locale": "ru",
+        "name": "Край бандитов"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/c849d6876df617ba6450f619d8d3cd34.png",
+        "filename": "762_Экзо_по_имени_Кейд.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "762",
+        "locale": "ru",
+        "name": "Экзо по имени Кейд"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/3db3a6822b302abd69dbf27934ce7054.png",
+        "filename": "763_Призрачные_истории.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "763",
+        "locale": "ru",
+        "name": "Призрачные истории"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/68b5edbce9b78f327526cf7b0f4b7ce4.png",
+        "filename": "764_Самый_верный.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "764",
+        "locale": "ru",
+        "name": "Самый верный"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7c49071f5674d989e470c94efdc26f9c.png",
+        "filename": "765_Письма_отступника.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "765",
+        "locale": "ru",
+        "name": "Письма отступника"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/9aa6fb5108c3abbc9c420da35c80f864.png",
+        "filename": "766_История_Эвы.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "766",
+        "locale": "ru",
+        "name": "История Эвы"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/88db6317a6145687515c7b688486165d.png",
+        "filename": "767_Радости_Рассвета.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "767",
+        "locale": "ru",
+        "name": "Радости Рассвета"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/3cea4b136d8c3ac8ff0f5079a34034dc.png",
+        "filename": "768_Пыль.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "768",
+        "locale": "ru",
+        "name": "Пыль"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/dbfa4fc7cd467dc13146acbc6e04f949.png",
+        "filename": "769_Украденные_данные.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "769",
+        "locale": "ru",
+        "name": "Украденные данные"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/8104e83916e405302fd8a7ba29662ac1.png",
+        "filename": "770_Варлок_Онор.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "770",
+        "locale": "ru",
+        "name": "Варлок Онор"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0453a847ada496e31476ca80454f90ff.png",
+        "filename": "771_Пропавшие_на_Луне.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "771",
+        "locale": "ru",
+        "name": "Пропавшие на Луне"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7999c3f27143fbf134bc6fff88a1f634.png",
+        "filename": "772_Письма_Эрис.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "772",
+        "locale": "ru",
+        "name": "Письма Эрис"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/c0d5d6d00de809a5ef10839ac5a7cf07.png",
+        "filename": "773_Голубь_и_феникс.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "773",
+        "locale": "ru",
+        "name": "Голубь и феникс"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/72be81169e334daf138f63f743e5df68.png",
+        "filename": "774_Созвездия.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "774",
+        "locale": "ru",
+        "name": "Созвездия"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/b5a3d0ec24326dbb86084e3f9c0bf94e.png",
+        "filename": "775_Заточение_и_освобождение.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "775",
+        "locale": "ru",
+        "name": "Заточение и освобождение"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/ca5cec6509d1d01f2d1734c5f247063a.png",
+        "filename": "776_О_Стазисе.epub",
+        "group": 2261683515,
+        "groupname": "Свет",
+        "index": "776",
+        "locale": "ru",
+        "name": "О Стазисе"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/8e6fd5d5d16f6722c2aa30042232ec12.png",
+        "filename": "779_Город_Грез.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "779",
+        "locale": "ru",
+        "name": "Город Грез"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/5348c0978e1e1b42f6ec47f7d379a181.png",
+        "filename": "780_Марасенна.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "780",
+        "locale": "ru",
+        "name": "Марасенна"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/9c122565c6965d1c9369ef4c29458157.png",
+        "filename": "781_Пробудившиеся_с_Рифа.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "781",
+        "locale": "ru",
+        "name": "Пробудившиеся с Рифа"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0d2bc0f54f4c81638d1baed1e56c386a.png",
+        "filename": "782_Дневник_Черного_арсенала.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "782",
+        "locale": "ru",
+        "name": "Дневник Черного арсенала"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/83a36da5831d255bafe974ceb6a0c132.png",
+        "filename": "783_Новое_рождение.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "783",
+        "locale": "ru",
+        "name": "Новое рождение"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/82514978c9151764ef246c84babd838f.png",
+        "filename": "784_Человек_без_имени.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "784",
+        "locale": "ru",
+        "name": "Человек без имени"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/520c3f0abc0067e7431bc0e399d41ded.png",
+        "filename": "785_Ничего_не_заканчивается.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "785",
+        "locale": "ru",
+        "name": "Ничего не заканчивается"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/a3b75307eddc0921d43b2af225f7d68b.png",
+        "filename": "786_Аспект.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "786",
+        "locale": "ru",
+        "name": "Аспект"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7c4bb9c933415a7edab185e4ece3d718.png",
+        "filename": "787_Откровение.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "787",
+        "locale": "ru",
+        "name": "Откровение"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/e568304735bd5fe00b8c4a02ae181966.png",
+        "filename": "788_Лжец.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "788",
+        "locale": "ru",
+        "name": "Лжец"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/14b9ce15d8999d88828fdcbb3b2e50c7.png",
+        "filename": "789_Твой_друг,_Мика_Абрам.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "789",
+        "locale": "ru",
+        "name": "Твой друг, Мика Абрам"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/05096887c1b7dc02e7691b28bd8aa3f1.png",
+        "filename": "790_Плач_наследия.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "790",
+        "locale": "ru",
+        "name": "Плач наследия"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/48d2ac6de17a7d670463d71c4b4070a7.png",
+        "filename": "791_Темное_будущее.epub",
+        "group": 2368205079,
+        "groupname": "Закат и рассвет",
+        "index": "791",
+        "locale": "ru",
+        "name": "Темное будущее"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/48b291462fade2c5847bd5a8b09a87a7.png",
+        "filename": "793_Отвергнутый_принц.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "793",
+        "locale": "ru",
+        "name": "Отвергнутый принц"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/642d1b67e90cc9c86242d88cef70b004.png",
+        "filename": "794_Правда_власти.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "794",
+        "locale": "ru",
+        "name": "Правда власти"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/1f9756e66410c0c16cc1520a9e84caf1.png",
+        "filename": "795_Гамбит_Скитальца.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "795",
+        "locale": "ru",
+        "name": "Гамбит Скитальца"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/914aa23c01fab6bd9dfbb5e4a63bfb29.png",
+        "filename": "796_Стена_желаний.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "796",
+        "locale": "ru",
+        "name": "Стена желаний"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/66f0ecb39a2352a18897baf1feb2b4ac.png",
+        "filename": "797_Книга_разрушения.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "797",
+        "locale": "ru",
+        "name": "Книга разрушения"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/23e85c6064feba667f4bf436b6f80b1f.png",
+        "filename": "798_У_каждой_розы_есть_шипы.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "798",
+        "locale": "ru",
+        "name": "У каждой розы есть шипы"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0b1abe2e81253169d02dc70c6803429b.png",
+        "filename": "799_Хроникон.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "799",
+        "locale": "ru",
+        "name": "Хроникон"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/59f891bb009dd5e12b92db95b23712ca.png",
+        "filename": "800_Исповедь.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "800",
+        "locale": "ru",
+        "name": "Исповедь"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/00b0e67411474497e3f6c26dd4a23bd2.png",
+        "filename": "801_Разоблачение.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "801",
+        "locale": "ru",
+        "name": "Разоблачение"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/949687d19cddc34d1d2364c145ebc345.png",
+        "filename": "802_Последние_дни_моря_Кракена.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "802",
+        "locale": "ru",
+        "name": "Последние дни моря Кракена"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/787e29e41f8f281369fe2c66ebfedcbe.png",
+        "filename": "803_Инквизиция_проклятых.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "803",
+        "locale": "ru",
+        "name": "Инквизиция проклятых"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/7f1eac0ba90f6b9c3fb9c73aa6742946.png",
+        "filename": "804_Испытания_и_невзгоды.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "804",
+        "locale": "ru",
+        "name": "Испытания и невзгоды"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/379b122cfca47ae80172f3a89a1b59b7.png",
+        "filename": "805_Уникальный_толкователь.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "805",
+        "locale": "ru",
+        "name": "Уникальный толкователь"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/0efdea73a5e099b5bca1aec038c1a4e1.png",
+        "filename": "806_Бывшая_Похитительница_кораблей.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "806",
+        "locale": "ru",
+        "name": "Бывшая Похитительница кораблей"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/190aa8ec8b474b529631c35a273a70a1.png",
+        "filename": "807_Зов_криптолита.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "807",
+        "locale": "ru",
+        "name": "Зов криптолита"
+    },
+    {
+        "cover": "https://www.bungie.net//common/destiny2_content/icons/11bcf7e11d16f677b37a241c6552e822.png",
+        "filename": "808_Записи_лаборатории_Бреев_–_СЕКРЕТНО.epub",
+        "group": 3188244430,
+        "groupname": "Тьма",
+        "index": "808",
+        "locale": "ru",
+        "name": "Записи лаборатории Бреев – СЕКРЕТНО"
+    }
+]
