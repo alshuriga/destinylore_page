@@ -11,7 +11,7 @@ $(document).ready(function() {
        });
 
         var locale = $(location).attr('href').split('/').pop();
-       // / locale = 'ru';
+        //locale = 'ru';
         console.log(locale);
 
         $.ajax({
@@ -34,7 +34,7 @@ $(document).ready(function() {
                 $('.bookname').first().addClass("active");
                 set_image(data[$('.active').first().attr('id')].cover);
                 $('#bookname').text(data[$('.active').first().attr('id')].name);
-                $('.book-controls a:first').attr('href', root + data[$('.active').first().attr('id')].group + '/' + data[$('.active').first().attr('id')].filename);
+                $('.book-controls a:first').attr('href', root + locale + '/'+ data[$('.active').first().attr('id')].group + '/' + data[$('.active').first().attr('id')].filename);
                 $('.bookname').mouseenter ( function() {
 
                     updateInfo(data,$(this).attr('id'), root);
