@@ -35,6 +35,7 @@ $(document).ready(function() {
                 set_image(data[$('.active').first().attr('id')].cover);
                 $('#bookname').text(data[$('.active').first().attr('id')].name);
                 $('.book-controls a:first').attr('href', root + locale + '/'+ data[$('.active').first().attr('id')].group + '/' + data[$('.active').first().attr('id')].filename);
+                $(".ziplink").attr('href', root + 'destiny_lore_ebooks_' + locale + '.epub');
                 $('.bookname').mouseenter ( function() {
 
                     updateInfo(data,$(this).attr('id'), root);
