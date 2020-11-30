@@ -158,7 +158,7 @@ function navCheck(pointer, data) {
 function updateInfo(data, i, dir, root) {
     $('#cover-img').replaceWith('<img id = "cover-img" src="' + data[i].cover + '" alt="" width="298px">');
     $('#bookname').text(data[i].name);
-    $('.book-controls a:first').attr('href',dir  + data[i].group + '/' + data[i].filename);
+    $('.book-controls a:first').attr('href',dir  + locale + '/' + data[i].group + '/' + data[i].filename);
 }
 
 $.fn.preload = function() {
