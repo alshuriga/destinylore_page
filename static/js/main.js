@@ -11,7 +11,7 @@ $(document).ready(function() {
        });
 
         var locale = $(location).attr('href').split('/').pop();
-        locale = 'ru';
+       // / locale = 'ru';
         console.log(locale);
 
         $.ajax({
