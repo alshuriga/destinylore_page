@@ -1,4 +1,4 @@
-
+var locale = 'en';
 
 $(document).ready(function() {
 
