@@ -9,7 +9,7 @@ $(document).ready(function() {
 
         locale = $(location).attr('href').split('/').pop();
         
-       locale = 'ru';
+       //locale = 'ru';
 
        $.ajax({
         url: 'https://www.destinylib.xyz/req?id=' + locale,
