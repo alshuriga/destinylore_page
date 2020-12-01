@@ -2,12 +2,7 @@ $(document).ready(function() {
 
 	$(function() {
         $( window ).resize(function() {
-            if($(window).width() > 990 && $(".container").first().height()<$(window).height()) {
-                $(".container").addClass("center");
-            }
-            else {
-               $(".container").removeClass("center");
-           }
+           centerApp();
        });
 
         var locale = $(location).attr('href').split('/').pop();
@@ -31,6 +26,7 @@ $(document).ready(function() {
                 filter(data, pointer);
                 navCheck(pointer, data);
                 setTitles(data);
+                centerApp();
                 $('.bookname').first().addClass("active");
                 set_image(data[$('.active').first().attr('id')].cover);
                 $('#bookname').text(data[$('.active').first().attr('id')].name);
@@ -185,6 +181,15 @@ function setTitles(data) {
         $(this).parent().attr("title", getGroup(data,$(this).attr("id")));
     });
 
+}
+
+function centerApp() {
+     if($(window).width() > 990 && $(".container").first().height()<$(window).height()) {
+                $(".container").addClass("center");
+            }
+            else {
+               $(".container").removeClass("center");
+           }
 }
 // Usage:
 
