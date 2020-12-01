@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 
 	$(function() {
@@ -5,9 +7,9 @@ $(document).ready(function() {
            centerApp();
        });
 
-        var locale = $(location).attr('href').split('/').pop();
-        //locale = 'ru';
-        console.log(locale);
+        locale = $(location).attr('href').split('/').pop();
+        
+       // locale = 'ru';
 
         $.ajax({
             url: 'https://www.destinylib.xyz/req?id=' + locale,
@@ -177,7 +179,6 @@ function getGroup(data, id) {
 
 function setTitles(data) {
     $(".list-section").find("img").each(function() {
-        console.log(getGroup(data, $(this).attr("id")));
         $(this).parent().attr("title", getGroup(data,$(this).attr("id")));
     });
 
