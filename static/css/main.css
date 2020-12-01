@@ -257,3 +257,9 @@ box-shadow:         12px 4px 29px 0px rgba(0, 0, 0, 0.38);
 	letter-spacing: 1px;
 }
 
+.disabled-link {
+	pointer-events: none;
+	color: rgba(255, 255, 255, 1);
+	font-style: bold;
+}
+

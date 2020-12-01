@@ -7,8 +7,10 @@ $(document).ready(function() {
        });
 
         locale = $(location).attr('href').split('/').pop();
+        if (locale.endsWith('index.html')) {
+            locale = 'ru';
+        }
 
-  //locale = 'ru';
 
   $.ajax({
     url: 'https://www.destinylib.xyz/req?id=' + locale,
@@ -28,6 +30,9 @@ $(document).ready(function() {
         navCheck(pointer, data);
         setTitles(data);
         centerApp();
+        translate(locale);
+        $('.link').removeClass('disabled-link');
+        $('#'+locale).addClass('disabled-link').prepend('<span>></span>');
         $('.bookname').first().addClass("active");
         set_image(data[$('.active').first().attr('id')].cover);
         $('#bookname').text(data[$('.active').first().attr('id')].name);
@@ -53,6 +58,17 @@ $(document).ready(function() {
             }
         })
         ;
+
+        $('.blink').each(function() {
+        var elem = $(this);
+        setInterval(function() {
+        if (elem.css('opacity') == '0') {
+            elem.css('opacity', '1');
+        } else {
+            elem.css('opacity', '0');
+        }    
+         }, 500);
+        });
 
         $('.list-section-item').click(function() {
             $('.list-section-item').removeClass('active-group');
@@ -199,6 +215,14 @@ function centerApp() {
         $(".container").removeClass("center");
     }
 }
-// Usage:
 
+
+function translate(locale) { 
+if (locale == "ru") {
+    $('#desc span:first').text("книги историй destiny в формате для электронных книг");
+    $('#locale span:first').text("../язык: ");
+    $('.ziplink').first().text("СКАЧАТЬ ВСЕ КНИГИ (ZIP-АРХИВ)");
+}
+else return false;
+}
 
