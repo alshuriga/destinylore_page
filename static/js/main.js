@@ -4,95 +4,101 @@ $(document).ready(function() {
 
 	$(function() {
         $( window ).resize(function() {
-           centerApp();
-       });
+         centerApp();
+     });
 
         locale = $(location).attr('href').split('/').pop();
         
-       // locale = 'ru';
+       locale = 'ru';
 
-        $.ajax({
-            url: 'https://www.destinylib.xyz/req?id=' + locale,
-            type: 'GET',
-            dataType: 'json',
-            success: function(data, status, xhr)
-            {
+       $.ajax({
+        url: 'https://www.destinylib.xyz/req?id=' + locale,
+        type: 'GET',
+        dataType: 'json',
+        success: function(data, status, xhr)
+        {
 
-                var root = 'https://www.destinylib.xyz/static/books/';
-                var pointer = 0;
+            var root = 'https://www.destinylib.xyz/static/books/';
+            var pointer = 0;
 
-                for (i = 0; i < data.length; i++) {
-                    $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ data[i].name + '</button>');
-                    $(data[i].name).preload();
+            for (i = 0; i < data.length; i++) {
+                $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ data[i].name + '</button>');
+                $(data[i].name).preload();
+            }
+            filter(data, pointer);
+            navCheck(pointer, data);
+            setTitles(data);
+            centerApp();
+            $('.bookname').first().addClass("active");
+            set_image(data[$('.active').first().attr('id')].cover);
+            $('#bookname').text(data[$('.active').first().attr('id')].name);
+            $('.book-controls a:first').attr('href', root + locale + '/'+ data[$('.active').first().attr('id')].group + '/' + data[$('.active').first().attr('id')].filename);
+            $(".ziplink").attr('href', root + 'destiny_lore_ebooks_' + locale + '.zip');
+            $('.bookname').mouseenter ( function() {
+
+                updateInfo(data,$(this).attr('id'), root);
+            });
+
+            $('.bookname').mouseleave (function () {
+                var id = $('.active').first().attr('id');
+                updateInfo(data, id, root);
+            });
+
+            $('.bookname').click( function() {
+                $('.bookname').removeClass("active");
+                $(this).addClass("active");
+                 if($(window).width() < 990) {
+                    $('html, body').animate({
+                        scrollTop: $(".info-col").first().offset().top + $(".info-col").first().height()/2
+                    }, 500);
                 }
+            })
+            ;
+
+            $('.list-section-item').click(function() {
+                $('.list-section-item').removeClass('active-group');
+                $(this).addClass('active-group');
+                pointer = 0;
                 filter(data, pointer);
                 navCheck(pointer, data);
-                setTitles(data);
-                centerApp();
-                $('.bookname').first().addClass("active");
-                set_image(data[$('.active').first().attr('id')].cover);
-                $('#bookname').text(data[$('.active').first().attr('id')].name);
-                $('.book-controls a:first').attr('href', root + locale + '/'+ data[$('.active').first().attr('id')].group + '/' + data[$('.active').first().attr('id')].filename);
-                $(".ziplink").attr('href', root + 'destiny_lore_ebooks_' + locale + '.zip');
-                $('.bookname').mouseenter ( function() {
+                $('.bookname').removeClass("active");''
+                $('.bookname:visible').first().addClass("active");
+                var id = $('.bookname:visible').first().attr('id');
+                updateInfo(data, id, root);
+               
 
-                    updateInfo(data,$(this).attr('id'), root);
-                });
+            });
 
-                $('.bookname').mouseleave (function () {
-                    var id = $('.active').first().attr('id');
-                    updateInfo(data, id, root);
-                });
+            $('.down').click(function() {
 
-                $('.bookname').click( function() {
-                    $('.bookname').removeClass("active");
-                    $(this).addClass("active");
-                })
-                ;
+                pointer+=7;
+                filter(data, pointer);
+                navCheck(pointer, data);
 
-                $('.list-section-item').click(function() {
-                    $('.list-section-item').removeClass('active-group');
-                    $(this).addClass('active-group');
-                    pointer = 0;
-                    filter(data, pointer);
-                    navCheck(pointer, data);
-                    $('.bookname').removeClass("active");''
-                    $('.bookname:visible').first().addClass("active");
-                    var id = $('.bookname:visible').first().attr('id');
-                    updateInfo(data, id, root);
-
-                });
-
-                $('.down').click(function() {
-
-                    pointer+=7;
-                    filter(data, pointer);
-                    navCheck(pointer, data);
-
-                });
+            });
 
 
-                $('.up').click(function() {
+            $('.up').click(function() {
 
-                    pointer-=7;
-                    filter(data, pointer);
-                    navCheck(pointer, data);
-                });
+                pointer-=7;
+                filter(data, pointer);
+                navCheck(pointer, data);
+            });
 
 
 
 
-            },
+        },
 
-            error: function(xhr, status, error)
-            {
+        error: function(xhr, status, error)
+        {
 
-            }
-        });
-
-
-
+        }
     });
+
+
+
+   });
 
 
 });
@@ -150,8 +156,8 @@ function navCheck(pointer, data) {
         $('.down').addClass("inactive-scroll");
     }
     else if (pointer <= 0){
-       $('.up').addClass("inactive-scroll");
-   }
+     $('.up').addClass("inactive-scroll");
+ }
 }
 
 function updateInfo(data, i, dir, root) {
@@ -185,12 +191,12 @@ function setTitles(data) {
 }
 
 function centerApp() {
-     if($(window).width() > 990 && $(".container").first().height()<$(window).height()) {
-                $(".container").addClass("center");
-            }
-            else {
-               $(".container").removeClass("center");
-           }
+   if($(window).width() > 990 && $(".container").first().height()<$(window).height()) {
+    $(".container").addClass("center");
+}
+else {
+ $(".container").removeClass("center");
+}
 }
 // Usage:
 
