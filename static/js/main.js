@@ -49,7 +49,7 @@ $(document).ready(function() {
                 $(this).addClass("active");
                  if($(window).width() < 990) {
                     $('html, body').animate({
-                        scrollTop: $(".info-col").first().offset().top + $(".info-col").first().height()/2
+                        scrollTop: $(".book-info").first().offset().top
                     }, 500);
                 }
             })
