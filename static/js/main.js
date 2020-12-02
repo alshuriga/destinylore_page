@@ -13,13 +13,13 @@ $(document).ready(function() {
 
 
   $.ajax({
-    url: 'https://alshuriga.pythonanywhere.com/req?id=' + locale,
+    url: 'https://destinylib.xyz/req?id=' + locale,
     type: 'GET',
     dataType: 'json',
     success: function(data, status, xhr)
     {
 
-        var root = 'https://alshuriga.pythonanywhere.com/static/books/';
+        var root = 'https://destinylib.xyz/static/books/';
         var pointer = 0;
 
         for (i = 0; i < data.length; i++) {
