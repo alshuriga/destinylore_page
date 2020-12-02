@@ -1,4 +1,3 @@
-
 import flask
 
 from flask import request, jsonify, render_template, redirect
@@ -35,5 +34,8 @@ def req():
 def page_not_found(e):
     # your processing here
     return redirect('/en')
+    
+
+app.run()
 
 
