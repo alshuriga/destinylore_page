@@ -13,13 +13,13 @@ $(document).ready(function() {
 
 
   $.ajax({
-    url: 'https://destinylib.xyz/req?id=' + locale,
+    url: 'https://www.destinylib.xyzreq?id=' + locale,
     type: 'GET',
     dataType: 'json',
     success: function(data, status, xhr)
     {
 
-        var root = 'https://destinylib.xyz/static/books/';
+        var root = 'https://www.destinylib.xyz//static/books/';
         var pointer = 0;
 
         for (i = 0; i < data.length; i++) {
@@ -218,7 +218,8 @@ function centerApp() {
 
 
 function translate(locale) { 
-if (locale == "ru") {
+
+if (locale == 'ru') {
     $('#desc span:first').text("лор destiny в e-book формате");
     $('#locale span:first').text("../язык: ");
     $('.ziplink').first().text("СКАЧАТЬ ВСЕ КНИГИ (ZIP-АРХИВ)");
