@@ -35,9 +35,3 @@ def page_not_found(e):
     # your processing here
     return redirect('/en')
     
-
-app.run()
-
-
-
-
