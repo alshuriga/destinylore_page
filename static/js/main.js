@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 
   $.ajax({
-    url: 'https://www.destinylib.xyzreq?id=' + locale,
+    url: 'https://www.destinylib.xyz/req?id=' + locale,
     type: 'GET',
     dataType: 'json',
     success: function(data, status, xhr)
