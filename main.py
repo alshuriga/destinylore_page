@@ -36,9 +36,7 @@ def page_not_found(e):
     return redirect('/en')
     
 
-
-if __name__ == "__main__":
-	app.run()
+app.run()
 
 
 
