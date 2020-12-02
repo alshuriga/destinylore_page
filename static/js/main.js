@@ -219,7 +219,7 @@ function centerApp() {
 
 function translate(locale) { 
 if (locale == "ru") {
-    $('#desc span:first').text("книги историй destiny в формате для электронных книг");
+    $('#desc span:first').text("лор destiny в e-book формате");
     $('#locale span:first').text("../язык: ");
     $('.ziplink').first().text("СКАЧАТЬ ВСЕ КНИГИ (ZIP-АРХИВ)");
 }
