@@ -24,7 +24,7 @@ $(document).ready(function() {
 
         for (i = 0; i < data.length; i++) {
             $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ data[i].name.replace('[ap]',"'") + '</button>');
-            $(data[i].name).preload();
+            $(data[i].cover).preload();
         }
         filter(data, pointer);
         navCheck(pointer, data);
@@ -178,7 +178,7 @@ function navCheck(pointer, data) {
 function updateInfo(data, i, dir, root) {
     $('#cover-img').replaceWith('<img id = "cover-img" src="' + data[i].cover + '" alt="" width="298px">');
    
-    $('#bookname').text(data[i].name);
+    $('#bookname').text(data[i].name.replace('[ap]',"'"));
     $('.book-controls a:first').attr('href',dir  + locale + '/' + data[i].group + '/' + data[i].filename);
 }
 
