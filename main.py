@@ -11,6 +11,7 @@ app.config['JSON_AS_ASCII'] = False
 
 @app.route('/ru')
 @app.route('/en')
+@app.route('/pl')
 def index():
     return render_template('index.html')
 
@@ -23,7 +24,7 @@ def req():
     else:
         return "Error: No id field provided. Please specify an id."
 
-    with open('/home/alshuriga/mysite/_json/'+str(id)+'.json', encoding='utf-8') as json_file:
+    with open('/home/alshuriga/mysite/static/books/_json/'+str(id)+'.json', encoding='utf-8') as json_file:
         data = json.load(json_file)
         response = jsonify(data)
         response.headers.add('Access-Control-Allow-Origin', '*')
@@ -34,4 +35,3 @@ def req():
 def page_not_found(e):
     # your processing here
     return redirect('/en')
-    
