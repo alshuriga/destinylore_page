@@ -219,7 +219,7 @@ box-shadow:         12px 4px 29px 0px rgba(0, 0, 0, 0.38);
 .list-control:not(:last-of-type) {
 	margin-right: 25px;
 }
-.down {
+.down, .ddimg {
 	transform: rotate(180deg);
 }
 .book {
