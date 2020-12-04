@@ -24,7 +24,7 @@ $(document).ready(function() {
 
         for (i = 0; i < data.length; i++) {
             $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ data[i].name.replace('[ap]',"'") + '</button>');
-            $(data[i].cover).preload();
+            $(data[i].name).preload();
         }
         filter(data, pointer);
         navCheck(pointer, data);
