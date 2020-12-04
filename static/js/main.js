@@ -220,7 +220,7 @@ function translate(locale) {
 
 if (locale == 'ru') {
     $('#desc span:first').text("лор destiny в e-book формате");
-    $('#locale span:first').text("../язык: ");
+    $('#language').text("../язык: ");
     $('.ziplink').first().text("СКАЧАТЬ ВСЕ КНИГИ (ZIP-АРХИВ)");
     $('#dontext').text("Хочешь поддержать destinylib? ");
     $('#donate').text("ДОНАТ <3");
