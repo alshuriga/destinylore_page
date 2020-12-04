@@ -23,7 +23,7 @@ $(document).ready(function() {
         var pointer = 0;
 
         for (i = 0; i < data.length; i++) {
-            $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ data[i].name + '</button>');
+            $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ data[i].name.replace('[ap]',"'") + '</button>');
             $(data[i].name).preload();
         }
         filter(data, pointer);
