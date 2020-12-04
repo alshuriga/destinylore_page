@@ -31,8 +31,7 @@ $(document).ready(function() {
         setTitles(data);
         centerApp();
         translate(locale);
-        $('.link').removeClass('disabled-link');
-        $('#'+locale).addClass('disabled-link').prepend('<span>></span>');
+        $('#ddlang').text(locale);
         $('.bookname').first().addClass("active");
         set_image(data[$('.active').first().attr('id')].cover);
         $('#bookname').text(data[$('.active').first().attr('id')].name);
