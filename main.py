@@ -9,11 +9,18 @@ app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 app.config['JSON_AS_ASCII'] = False
 
+
 @app.route('/ru')
 @app.route('/en')
 @app.route('/pl')
 def index():
     return render_template('index.html')
+
+@app.route('/') 
+def home():
+	supported_languages = ["en", "ru", "pl", "de", "it", "pt", "es", "fr"]
+	lang = request.accept_languages.best_match(supported_languages)
+	return redirect('/'+lang)
 
 
 @app.route('/req', methods=['GET'])
