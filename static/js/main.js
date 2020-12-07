@@ -23,7 +23,11 @@ $(document).ready(function() {
         var pointer = 0;
 
         for (i = 0; i < data.length; i++) {
-            $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ data[i].name.replace('[ap]',"'").replace('[dot]',".").replace("[dd]",":") + '</button>');
+            var str = data[i].name.replace('[ap]',"'").replace('[dot]',".").replace("[dd]",":");
+            if (str.length > 30) {
+                 str = str.slice(0, 27) + '...';           
+            }
+            $(".book-list-section").append('<button id="' + i + '"class="bookname button w-100">'+ str + '</button>');
             $(data[i].name).preload();
         }
         filter(data, pointer);
@@ -177,9 +181,16 @@ function navCheck(pointer, data) {
 
 function updateInfo(data, i, dir, root) {
     $('#cover-img').replaceWith('<img id = "cover-img" src="' + data[i].cover + '" alt="" width="298px">');
-   
     $('#bookname').text(data[i].name.replace('[ap]',"'"));
     $('.book-controls a:first').attr('href',dir  + locale + '/' + data[i].group + '/' + data[i].filename);
+
+    if($("#bookname").height() > 21) {
+        console.log($("#bookname").height()>21)
+        $(".book-controls").css("margin-top",'70px');
+    }
+    else {
+         $(".book-controls").css("margin-top",'90px');
+    }
 }
 
 $.fn.preload = function() {

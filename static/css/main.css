@@ -70,11 +70,13 @@ img {
 
 .bookname {
 	letter-spacing:2px;
+
 }
 
 #bookname {
 font-style: italic;
 letter-spacing:1px;
+max-width: 298px;
 
  }
 
