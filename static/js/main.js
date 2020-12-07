@@ -1,5 +1,4 @@
 var locale = 'en';
-
 $(document).ready(function() {
     $(function() {
         $( window ).resize(function() {
@@ -14,11 +13,13 @@ $(document).ready(function() {
         {
 
         locale = data.locale;
+
         console.log(data);
         if (locale == "") {
             locale = 'en';
-
         }
+
+
         main(locale);
 
         $('.dropdown-content').children().click( function() {
