@@ -6,37 +6,38 @@ $(document).ready(function() {
        });
 
         $.ajax({
-        url: 'https://www.destinylib.xyz/get_locale',
-        type: 'GET',
-        dataType: 'json',
-        success: function(data, status, xhr)
-        {
+            url: 'https://www.destinylib.xyz/get_locale',
+            type: 'GET',
+            dataType: 'json',
+            success: function(data, status, xhr)
+            {
 
-        locale = data.locale;
+                locale = data.locale;
 
-        console.log(data);
-        if (locale == "") {
-            locale = 'en';
-        }
+                console.log(data);
+                if (locale == "") {
+                    locale = 'en';
+                }
 
 
-        main(locale);
-
-        $('.dropdown-content').children().click( function() {
-
-                locale = $(this).attr('locale');
                 main(locale);
 
-            });
+                $('.dropdown-content').children().click( function() {
 
-        
+                    $(".dropdown-content").hide(); 
+                    locale = $(this).attr('locale');
+                    main(locale);
 
-        },
-         error: function(xhr, status, error)
-        {
+                });
 
-        }
-});
+
+
+            },
+            error: function(xhr, status, error)
+            {
+
+            }
+        });
 
     });
 
@@ -231,49 +232,55 @@ function main(locale) {
                 }
             })
 
-           
 
-            $('.list-section-item').click(function() {
-                $('.list-section-item').removeClass('active-group');
-                $(this).addClass('active-group');
-                pointer = 0;
-                filter(data, pointer);
-                navCheck(pointer, data);
-                $('.bookname').removeClass("active");''
-                $('.bookname:visible').first().addClass("active");
-                var id = $('.bookname:visible').first().attr('id');
-                updateInfo(data, id, root);
+            $(".dropdown").on("click", function () {
+              $(".dropdown-content").toggle();
+          });
 
+// hide the menu when an exmple is clicked
+          
 
-            });
-
-            $('.down').click(function() {
-
-                pointer+=7;
-                filter(data, pointer);
-                navCheck(pointer, data);
-
-            });
+$('.list-section-item').click(function() {
+    $('.list-section-item').removeClass('active-group');
+    $(this).addClass('active-group');
+    pointer = 0;
+    filter(data, pointer);
+    navCheck(pointer, data);
+    $('.bookname').removeClass("active");''
+    $('.bookname:visible').first().addClass("active");
+    var id = $('.bookname:visible').first().attr('id');
+    updateInfo(data, id, root);
 
 
-            $('.up').click(function() {
+});
 
-                pointer-=7;
-                filter(data, pointer);
-                navCheck(pointer, data);
-            });
+$('.down').click(function() {
 
-            console.log('done');
+    pointer+=7;
+    filter(data, pointer);
+    navCheck(pointer, data);
 
-
-        },
-
-        error: function(xhr, status, error)
-        {
-
-        }
+});
 
 
+$('.up').click(function() {
 
-    });
+    pointer-=7;
+    filter(data, pointer);
+    navCheck(pointer, data);
+});
+
+console.log('done');
+
+
+},
+
+error: function(xhr, status, error)
+{
+
+}
+
+
+
+});
 }
