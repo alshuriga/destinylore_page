@@ -6,19 +6,36 @@ $(document).ready(function() {
            centerApp();
        });
 
-        locale = $(location).attr('href').split('/').pop();
-        if (locale.endsWith('index.html')) {
-            locale = 'de';
-        }
+        $.ajax({
+        url: 'https://www.destinylib.xyz/get_locale',
+        type: 'GET',
+        dataType: 'json',
+        success: function(data, status, xhr)
+        {
 
-           $('.dropdown-content').children().click( function() {
+        locale = data.locale;
+        console.log(data);
+        if (locale == "") {
+            locale = 'en';
+
+        }
+        main(locale);
+
+        $('.dropdown-content').children().click( function() {
 
                 locale = $(this).attr('locale');
                 main(locale);
 
             });
 
-        main(locale);
+        
+
+        },
+         error: function(xhr, status, error)
+        {
+
+        }
+});
 
     });
 
