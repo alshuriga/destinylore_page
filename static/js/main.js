@@ -181,7 +181,7 @@ function navCheck(pointer, data) {
 
 function updateInfo(data, i, dir, root) {
     $('#cover-img').replaceWith('<img id = "cover-img" src="' + data[i].cover + '" alt="" width="298px">');
-    $('#bookname').text(data[i].name.replace('[ap]',"'"));
+    $('#bookname').text(data[i].name.replace('[ap]',"'").replace('[dot]',".").replace("[dd]",":"));
     $('.book-controls a:first').attr('href',dir  + locale + '/' + data[i].group + '/' + data[i].filename);
 
     if($("#bookname").height() > 21) {
