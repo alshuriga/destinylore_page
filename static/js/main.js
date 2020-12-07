@@ -24,7 +24,6 @@ $(document).ready(function() {
 
                 $('.dropdown-content').children().click( function() {
 
-                    $(".dropdown-content").hide(); 
                     locale = $(this).attr('locale');
                     main(locale);
 
@@ -233,11 +232,7 @@ function main(locale) {
             })
 
 
-            $(".dropdown").on("click", function () {
-              $(".dropdown-content").toggle();
-          });
 
-// hide the menu when an exmple is clicked
           
 
 $('.list-section-item').click(function() {
