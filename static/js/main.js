@@ -229,7 +229,17 @@ function main(locale) {
                         scrollTop: $(".book-info").first().offset().top
                     }, 500);
                 }
-            })
+            });
+
+            $(".dropbtn").click( function() {
+                $(".dropdown-content").show();
+
+            });
+
+            $(".dropdown-content").click ( function() {
+                    $(".dropdown-content").hide();
+
+            });
 
 
 
