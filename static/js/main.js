@@ -236,6 +236,11 @@ function main(locale) {
 
             });
 
+            $(".dropbtn").mouseenter( function() {
+                $(".dropdown-content").show();
+
+            });
+
             $(".dropdown-content").click ( function() {
                     $(".dropdown-content").hide();
 
