@@ -51,7 +51,7 @@ function filter(data, a) {
     var pointer = 0;
     $(".bookname").hide();
     $(".bookname").each(function(){
-        if (data[$(this).attr("id")].group == currentGroup) {
+        if (data[$(this).attr("id")].group_id == currentGroup) {
           pointer++;
           if(pointer<=a+7 && pointer>a ) {
               $(this).show();
@@ -65,7 +65,7 @@ function numberOfBooks(data) {
     var currentGroup = $(".active-group").children().first().attr("id");
     var number = 0;
     $(".bookname").each(function(){
-        if (data[$(this).attr("id")].group == currentGroup) {
+        if (data[$(this).attr("id")].group_id == currentGroup) {
           number++;
       }
   });
@@ -210,7 +210,7 @@ function main(locale) {
             set_image(data[$('.active').first().attr('id')].cover);
             $('#bookname').text(data[$('.active').first().attr('id')].name);
             $('.book-controls a:first').attr('href', root + locale + '/'+ data[$('.active').first().attr('id')].group + '/' + data[$('.active').first().attr('id')].filename);
-            $(".ziplink").attr('href', root + 'destiny_lore_ebooks_' + locale + '.zip');
+            $(".ziplink").attr('href', root + 'zip/destinylib_books_' + locale + '.zip');
             $('.bookname').mouseenter ( function() {
                 updateInfo(data,$(this).attr('id'), root);
             });
